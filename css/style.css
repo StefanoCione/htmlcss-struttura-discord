@@ -69,28 +69,47 @@ section {
     flex-direction: row-reverse;
 }
 
-  /* SECTION GREY/RECTANGLE GREEN */
+/* SECTION GREY/RECTANGLE GREEN */
 .rectangle_green {
     height: 600px;
     width: 100%;
     background-color: green;
 }
 
-    /* FOOTER */
-.background_footer {
+footer {
     background-color: black;
 }
+/* FOOTER FIRST SECTION */
+.background_footer {
+    padding: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
 
-    /* FOOTER FIRST SECTION */
 .rectangle_orange {
     height: 500px;
     background-color: orange;
     flex-grow: 2;
-}    
+}
 
 .rectangle_yellow {
     height: 500px;
     background-color: yellow;
     border: 1px solid rebeccapurple;
     flex-grow: 1;
+}
+
+    /* FOOTER SECOND SECTION */
+.rectangle_footer_second {
+    padding-top: 20px;
+    
+
+}
+
+.rectangle_footer {
+    height: 50px;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-content: center;
+    
 }
