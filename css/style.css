@@ -75,3 +75,22 @@ section {
     width: 100%;
     background-color: green;
 }
+
+    /* FOOTER */
+.background_footer {
+    background-color: black;
+}
+
+    /* FOOTER FIRST SECTION */
+.rectangle_orange {
+    height: 500px;
+    background-color: orange;
+    flex-grow: 2;
+}    
+
+.rectangle_yellow {
+    height: 500px;
+    background-color: yellow;
+    border: 1px solid rebeccapurple;
+    flex-grow: 1;
+}
