@@ -79,6 +79,7 @@ section {
 footer {
     background-color: black;
 }
+
 /* FOOTER FIRST SECTION */
 .background_footer {
     padding: 5px;
@@ -99,11 +100,10 @@ footer {
     flex-grow: 1;
 }
 
-    /* FOOTER SECOND SECTION */
+/* FOOTER SECOND SECTION */
 .rectangle_footer_second {
     padding-top: 20px;
-    
-
+    padding-bottom: 0;
 }
 
 .rectangle_footer {
@@ -111,5 +111,4 @@ footer {
     background-color: aliceblue;
     justify-content: space-between;
     align-content: center;
-    
 }
