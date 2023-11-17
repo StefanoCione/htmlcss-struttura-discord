@@ -70,4 +70,8 @@ section {
 }
 
   /* SECTION GREY/RECTANGLE GREEN */
-  
+.rectangle_green {
+    height: 600px;
+    width: 100%;
+    background-color: green;
+}
